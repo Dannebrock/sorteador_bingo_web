@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎱 Jogo de Bingo Interativo - Next.js
 
-## Getting Started
+Este é um projeto criado com [Next.js](https://nextjs.org), utilizando o comando [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-First, run the development server:
+## 🧩 Sobre o projeto
+
+Este é um **jogo de bingo interativo** que simula uma experiência real de sorteio. Ideal para brincadeiras em família, eventos, escolas ou para se divertir com amigos.
+
+### ✨ Funcionalidades
+
+- Tabela com **números de 1 a 75**
+- Botão para **sortear números aleatórios**
+- **Animação sincronizada com som** ao sortear
+- Visualização dos **números já sorteados**
+- Botão para **reiniciar o jogo**
+- Controle de **áudio ligado/desligado**
+- Layout **responsivo** com quadrados menores no mobile
+
+---
+
+## ▶️ Como rodar o projeto
+
+Instale as dependências e execute o projeto em ambiente de desenvolvimento:
 
 ```bash
+npm install
 npm run dev
-# or
+# ou
+yarn install
 yarn dev
-# or
+# ou
+pnpm install
 pnpm dev
-# or
+# ou
+bun install
 bun dev
-```
+Depois, acesse:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📍 http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🛠️ Estrutura principal
+Você pode editar a página principal do jogo modificando o arquivo:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+txt
+Copiar
+Editar
+app/page.tsx
+A aplicação será recarregada automaticamente ao salvar o arquivo.
 
-## Learn More
+📦 Tecnologias utilizadas
+Next.js — Framework React para produção
 
-To learn more about Next.js, take a look at the following resources:
+TypeScript — Tipagem estática para maior robustez
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+next/font — Otimização de fontes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Geist — Fonte moderna da Vercel
 
-## Deploy on Vercel
+Lucide Icons — Ícones otimizados
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Tailwind CSS (se estiver usando)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🚀 Publicar na Vercel
+A forma mais fácil de publicar este projeto é usando a plataforma da Vercel, criadora do Next.js:
+
+📦 Deploy em 1 clique:
+👉 https://vercel.com/new
+
+📚 Aprenda mais
+Documentação do Next.js
+
+Curso interativo de Next.js
+
+Repositório no GitHub
+
+Feito com ❤️ e diversão. Bora jogar bingo? 🎉
