@@ -3,6 +3,7 @@
 import { useState, useCallback } from "react"
 import { Button } from "@/components/ui/button"
 import { RotateCcw, Play, Volume2, VolumeX } from "lucide-react"
+import { FaLinkedinIn } from "react-icons/fa"
 
 export default function BingoGame() {
   const [drawnNumbers, setDrawnNumbers] = useState<Set<number>>(new Set())
@@ -246,6 +247,20 @@ export default function BingoGame() {
           <p>Clique em "Sortear Número" para sortear um novo número</p>
           <p>Os números sorteados aparecerão em verde na grade</p>
         </div>
+
+          <div className="text-center mt-8 text-white text-md flex justify-center items-center gap-2">
+      <p>Desenvolvido por </p>
+      <a
+        href="https://www.linkedin.com/in/matheus-dannebrock-906276153"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-white hover:text-blue-400 transition"
+        aria-label="LinkedIn"
+      >
+        <FaLinkedinIn size={20} />
+      </a>
+       <p>Matheus Dannebrock</p>
+    </div>
       </div>
     </div>
   )
