@@ -34,20 +34,19 @@ pnpm dev
 # ou
 bun install
 bun dev
+```
+
 Depois, acesse:
 
 📍 http://localhost:3000
 
-🛠️ Estrutura principal
+##  🛠️ Estrutura principal
 Você pode editar a página principal do jogo modificando o arquivo:
 
-txt
-Copiar
-Editar
-app/page.tsx
+/bingo-game.tsx
 A aplicação será recarregada automaticamente ao salvar o arquivo.
 
-📦 Tecnologias utilizadas
+## 📦 Tecnologias utilizadas
 Next.js — Framework React para produção
 
 TypeScript — Tipagem estática para maior robustez
@@ -66,11 +65,5 @@ A forma mais fácil de publicar este projeto é usando a plataforma da Vercel, c
 📦 Deploy em 1 clique:
 👉 https://vercel.com/new
 
-📚 Aprenda mais
-Documentação do Next.js
-
-Curso interativo de Next.js
-
-Repositório no GitHub
 
 Feito com ❤️ e diversão. Bora jogar bingo? 🎉
