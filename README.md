@@ -18,7 +18,8 @@ Este é um **jogo de bingo interativo** que simula uma experiência real de sort
 
 ---
 
-## Visualize o projeto na web aqui 🎱 [Bingo Web](https://sorteador-bingo-web.vercel.app){:target="_blank"}
+## Visualize o projeto na web aqui 🎱 <a href="https://sorteador-bingo-web.vercel.app" target="_blank" rel="noopener noreferrer">Bingo Web</a>
+
 
 ## ▶️ Como rodar o projeto
 
