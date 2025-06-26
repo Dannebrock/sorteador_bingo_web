@@ -1,6 +1,6 @@
 # 🎱 Jogo de Bingo Interativo - Next.js
 
-Este é um projeto criado com [Next.js](https://nextjs.org), utilizando o V0 para criação inicial do layout e componentes [V0](https://v0.dev/)) .
+Este é um projeto criado com [Next.js](https://nextjs.org), utilizando o [V0](https://v0.dev/) para criação inicial do layout e componentes.
 
 ## 🧩 Sobre o projeto
 
@@ -18,7 +18,7 @@ Este é um **jogo de bingo interativo** que simula uma experiência real de sort
 
 ---
 
-## Teste aqui ▶️ [Next.js](https://nextjs.org)
+## Visualize o projeto na web aqui ▶️ [Bingo Web](https://sorteador-bingo-web.vercel.app)
 
 ## ▶️ Como rodar o projeto
 
