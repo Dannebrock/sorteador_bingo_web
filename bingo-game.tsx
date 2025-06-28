@@ -29,7 +29,7 @@ export default function BingoGame() {
     if (number >= 16 && number <= 30) return "I"
     if (number >= 31 && number <= 45) return "N"
     if (number >= 46 && number <= 60) return "G"
-    if (number >= 61 && number <= 75) return "O"
+    if (number >= 61 && number <= 75) return "Ó"
     return ""
   }
 
@@ -259,7 +259,7 @@ export default function BingoGame() {
       >
         <FaLinkedinIn size={20} />
       </a>
-       <p>Matheus Dannebrock</p>
+       <p>Matheus Dannebrock</p> 
     </div>
       </div>
     </div>
